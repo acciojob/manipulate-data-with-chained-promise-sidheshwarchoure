@@ -1,4 +1,5 @@
 //your JS code here. If required.
+//manipulateData([1, 2, 3, 4]);
 function manipulateData(input) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -29,3 +30,4 @@ function manipulateData(input) {
     console.error(error);
   });
 }
+manipulateData([1, 2, 3, 4]);
